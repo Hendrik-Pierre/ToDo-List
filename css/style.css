@@ -1,0 +1,82 @@
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding-top: 15%;
+    height: 100vh;
+    background: linear-gradient(160deg, #000000, #63809d, #000000);
+    
+    
+}
+h1{
+  background: (160deg, #000000, #63809d, #000000);
+}
+
+span::first-letter {
+    text-transform: uppercase;
+}
+
+
+input {
+    background: linear-gradient(200deg ,#b5c6da,#5f8692, #a9cbf2);
+
+    padding: 0.7rem;
+    border-radius: 5px;
+    min-width: 25rem;
+    font-size: 17px;
+}
+
+
+#addBtn {
+    border: 3px transparent rgb(33, 55, 248);
+    background: linear-gradient(160deg, #000000, #63809d, #000000);
+    color: rgb(255, 255, 255);
+    padding: 0.7rem;
+    border-radius: 5px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+span:hover {
+    cursor: pointer;
+}
+
+#deleteBtn {
+    margin-left: 10px;
+}
+
+#todos {
+    list-style-type: none;
+    padding: 0;
+}
+
+.todo {
+    margin-top: 0.7rem;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    justify-content: space-between;
+    padding-bottom: 0.9rem;
+    border-bottom: 1px solid grey;
+    background: linear-gradient(200deg ,#b5c6da,#5f8692, #a9cbf2);
+    border-radius: 10px;
+}
+
+.todo span {
+    font-size: 20px;
+}
+
+.todo button {
+    margin-left: 1rem;
+    background-color: black;
+    border: none;
+    border-radius: 50%;
+    padding: 0.2rem;
+    font-size: 10px;
+    cursor: pointer;
+}
